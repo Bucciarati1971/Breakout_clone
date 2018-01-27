@@ -1,0 +1,109 @@
+* { 
+	padding: 0; 
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600; }
+body{
+	background-color: rgb(204, 224, 255);
+	 background-image: url("src/BG.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+canvas { 
+	background:  rgba(250,250,220,0);
+	display: block; 
+	margin: 0 auto;
+	margin-top:5%;  
+	border:10px solid rgba(250,250,250,0.5);
+	border-radius: 15px;
+	 }
+@media (max-width:620px ) {
+	canvas{
+
+		width: 450px;
+		height: 300px;
+	}		
+}
+
+@media (max-width:460px ) {
+	canvas{
+
+		width: 300px;
+		height: 200px;
+	}		
+		
+}
+
+
+.overlay{
+	background-color: rgba(0,0,0,0.7);
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top:40%;
+	left: 50%;
+	margin: -160px 0px 0px -160px;
+	border: 10px solid rgba(250,250,250,0.7);
+	border-radius: 5px;
+	text-align: center;
+
+}
+.overlay2{
+	background-color: rgba(0,0,0,0.7);
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top:40%;
+	left: 50%;
+	margin: -160px 0px 0px -160px;
+	border: 10px solid rgba(250,250,250,0.7);
+	border-radius: 5px;
+	text-align: center;
+	display: none;
+}
+.msg{
+
+	color: white;
+	padding: 10px;
+	
+	font-size: 50px;
+}
+.tip{
+	
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	top:0;
+	left: 50%;
+	margin: 0px 0px 0px -150px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	display: none;
+}
+.msg-tip{
+
+	color: white;
+	padding: 10px;
+	font-size: 50px;
+}
+button{
+	margin: 0 auto;
+	margin-top: 15px;
+	background-color: rgba(250,250,250,0.8);
+	color:rgb(51, 51, 204);
+	outline: none;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+	height: 50px;
+	font-size: 25px;
+	display: block;
+	cursor: pointer;
+	transition: width 1s;
+}
+button:hover{
+	width: 250px;
+	background-color:rgb(51, 51, 204);
+	color: white;
+}

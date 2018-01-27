@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Breakout clone</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<canvas id="Canvas" width=600" height="400"></canvas>
+
+<div class="overlay" id="overlay">
+	<div class="msg">Start!</div>
+	<button class="button" data-i="12">easy</button>
+	<button class="button" data-i="8">normal</button>
+	<button class="button" data-i="5">hard</button>
+</div> 
+
+<div class="overlay2" id="overlay2">
+	<br><div class="msg">You Win!</div>
+	<button id="retry">Retry!</button>
+</div> 
+
+<div class="tip" id="tip">
+	<div class="msg-tip">Click!</div>
+</div>
+
+<script type="text/javascript" src="js/game.js"></script>
+</body>
+</html>
